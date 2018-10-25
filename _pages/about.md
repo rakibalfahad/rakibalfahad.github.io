@@ -4,7 +4,9 @@ permalink: /about/
 header:
   image: "/images/zakim.jpg"
 ---
-I started working at CVPIA lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
+
+### I started working at CVPIA lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
+
 
 - Exploratory data analysis, visualization and pattern analysis.
 - Feature selection in higher dimensional data with a limited sample size.
@@ -45,12 +47,12 @@ Modeling epistemic state of mind and color of emotion from the electroencephalog
 
 Rakib Al-Fahad
 
-Ph.D. Candidate
-Electrical and Computer Engineering
-The University of Memphis
-ralfahad@memphis.edu
+Ph.D. Candidate </br>
+Electrical and Computer Engineering </br>
+The University of Memphis </br>
+ralfahad@memphis.edu </br>
 
-[Linkedin](https://www.linkedin.com/in/rakib-al-fahad-b4a50b18/)
+[Linkedin](https://www.linkedin.com/in/rakib-al-fahad-b4a50b18/) </br>
 [Github](https://github.com/rakibalfahad/)
 
 
