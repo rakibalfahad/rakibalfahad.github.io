@@ -52,4 +52,4 @@ Modeling epistemic state of mind and color of emotion from the electroencephalog
 <br> The University of Memphis
 <br> ralfahad@memphis.edu
 
-My resume is here [resume]("/images/CV/CV-Rakib.pdf")
+My resume is here [resume] "https://github.com/rakibalfahad/rakibalfahad.github.io/tree/master/images/CV/CV-Rakib.pdf"
