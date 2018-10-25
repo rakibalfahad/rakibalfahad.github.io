@@ -5,7 +5,7 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-#### I started working at CVPIA lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
+#### I started working at [CVPIA](http://cvpia.memphis.edu/) lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
 
 
 - Exploratory data analysis, visualization and pattern analysis.
