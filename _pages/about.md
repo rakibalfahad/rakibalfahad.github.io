@@ -45,8 +45,8 @@ Modeling epistemic state of mind and color of emotion from the electroencephalog
 2. Rakib Al-Fahad, M.Y., 2016. What does Band Frequency Activities Tell us about the 4-D Affective Space? In OHBM 2016, Poster Number: 3395
 
 
-#### Rakib Al-Fahad
 
+<br> Rakib Al-Fahad
 <br> Ph.D. Candidate
 <br> Electrical and Computer Engineering
 <br> The University of Memphis
