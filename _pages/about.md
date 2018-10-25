@@ -33,13 +33,13 @@ Find out individual difference form human brain connectivity using deep learning
 
 Modeling epistemic state of mind and color of emotion from the electroencephalogram (EEG) physiological data. This research is an integral part of the ongoing blind ambition project led by Dr. Mohammed Yeasin.
 
-## Publications 
+## Publications
 
 1. Al-Fahad, R., Yeasin, M., Anam, A.I. and Elahian, B., 2017, May. Selection of stable features for modeling 4-D affective space from EEG recording. In Neural Networks (IJCNN), 2017 International Joint Conference on (pp. 1202-1209). IEEE.
 2. Al-Fahad, R. and Yeasin, M., 2016, December. Robust modeling of continuous 4-d affective space from EEG recording. In Machine Learning and Applications (ICMLA), 2016 15th IEEE International Conference on (pp. 1040-1045). IEEE.
 3. Ahmed, F., Mahmud, M. S., Al-Fahad, R., Alam, S., and Yeasin, M. 2018, April. Image Captioning for Ambient Awareness on a Sidewalk. In Data Intelligence and Security (ICDIS), 2018 1st International Conference on (pp. 85-91). IEEE.
 
-## Presentation 
+## Presentation
 
 1. Rakib Al-Fahad, M.Y, J Glass, H. Conklin, L. Jacola, W. Reddick, 2017. Early Imaging-Based Predictive Modeling of Cognitive Performance Following Therapy for Childhood ALL. In OHBM 2017, Poster Number: 3910
 2. Rakib Al-Fahad, M.Y., 2016. What does Band Frequency Activities Tell us about the 4-D Affective Space? In OHBM 2016, Poster Number: 3395
@@ -47,9 +47,7 @@ Modeling epistemic state of mind and color of emotion from the electroencephalog
 
 #### Rakib Al-Fahad
 
-Ph.D. Candidate </br>
-Electrical and Computer Engineering </br>
-The University of Memphis </br>
-ralfahad@memphis.edu </br>
-
-
+Ph.D. Candidate
+Electrical and Computer Engineering
+The University of Memphis
+ralfahad@memphis.edu
