@@ -1,10 +1,8 @@
 ---
 layout: posts
-permalink: /machine-learning/
-title: "Machine Learning Posts by Tags"
+permalink: /exploratory_data_analysis/
+title: "Exploratory Data Analysis Posts by Tags"
 author_profile: true
 header:
   image: "/images/fort point.png"
 ---
-
-
