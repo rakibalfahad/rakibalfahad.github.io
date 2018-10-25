@@ -47,13 +47,7 @@ Modeling epistemic state of mind and color of emotion from the electroencephalog
 
 #### Rakib Al-Fahad
 
-Ph.D. Candidate
-Electrical and Computer Engineering
-The University of Memphis
-ralfahad@memphis.edu
-
-
-<li>Line 1</li>
-<li>Line 2</li>
-<br>Line 11
-<br>Line 12
+<br> Ph.D. Candidate
+<br> Electrical and Computer Engineering
+<br> The University of Memphis
+<br> ralfahad@memphis.edu
