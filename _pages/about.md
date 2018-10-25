@@ -5,7 +5,7 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-### I started working at CVPIA lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
+#### I started working at CVPIA lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
 
 
 - Exploratory data analysis, visualization and pattern analysis.
@@ -51,8 +51,5 @@ Ph.D. Candidate </br>
 Electrical and Computer Engineering </br>
 The University of Memphis </br>
 ralfahad@memphis.edu </br>
-
-[Linkedin](https://www.linkedin.com/in/rakib-al-fahad-b4a50b18/) </br>
-[Github](https://github.com/rakibalfahad/)
 
 
