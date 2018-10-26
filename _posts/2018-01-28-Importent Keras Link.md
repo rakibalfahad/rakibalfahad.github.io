@@ -1,10 +1,10 @@
 ---
-title: "Machine Learning Project: Perceptron"
+title: "Importent Keras Link"
 date: 2018-01-28
-tags: [machine learning, data science, neural network]
+tags: [Deep Learning, Tensorflow, Keras]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Machine Learning, Perceptron, Data Science"
+  image: "/images/perceptron/KerasTensorflow.jpg"
+excerpt: "Deep Learning, Tensorflow, Keras"
 mathjax: "true"
 ---
 
