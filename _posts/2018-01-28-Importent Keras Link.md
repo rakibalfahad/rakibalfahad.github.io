@@ -3,7 +3,7 @@ title: "Importent Keras Link"
 date: 2018-01-28
 tags: [Deep Learning, Tensorflow, Keras]
 header:
-  image: "/images/perceptron/KerasTensorflow.jpg"
+  image: "/images/KerasTensorflow.jpg"
 excerpt: "Deep Learning, Tensorflow, Keras"
 mathjax: "true"
 ---
