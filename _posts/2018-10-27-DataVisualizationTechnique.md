@@ -78,7 +78,7 @@ X_PCA=pca.fit_transform(X)
 X_PCA_LDA=LDA(X_PCA, y, 50)[0]
 # Apply tSNE
 tsne = TSNE(n_components=2, random_state=0, perplexity=10)
-Y = tsne.fit_transform(X_PCA_LDA) # this
+Y = tsne.fit_transform(X_PCA_LDA) 
 
 from tSNE_KDE_2Class_VisPlot import tSNE_KDE_2Class_VisPlot # import function from my utility
 tSNE_KDE_2Class_VisPlot(Y,y, fileName="tSNE_KDE_plot")
