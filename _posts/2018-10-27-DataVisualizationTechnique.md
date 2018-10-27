@@ -43,8 +43,8 @@ X_scale=scaler.fit_transform(X) # X is the data matrix
 
 Reference and usefull links:
 
-sklearn guide: http://scikit-learn.org/stable/modules/manifold.html#t-sne
-How to Use t-SNE Effectively: https://distill.pub/2016/misread-tsne/
+sklearn guide: [Here](http://scikit-learn.org/stable/modules/manifold.html#t-sne)
+How to Use t-SNE Effectively: [Here](https://distill.pub/2016/misread-tsne/)
 
 Example Code:
 ```python
