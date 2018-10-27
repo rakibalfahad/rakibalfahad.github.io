@@ -1,5 +1,5 @@
 ---
-title: "Higher Data visualization using tSNE"
+title: "Higher Dimensional Data visualization using tSNE"
 date: 2018-10-27
 tags: [Data visualization, Higher dimensional data, tSNE, Manifold]
 header:
