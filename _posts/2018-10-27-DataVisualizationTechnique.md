@@ -1,5 +1,5 @@
 ---
-title: "Higher Dimensional Data visualization using tSNE"
+title: "High Dimensional Data visualization using tSNE"
 date: 2018-10-27
 tags: [Data visualization, Higher dimensional data, tSNE, Manifold]
 header:
@@ -43,8 +43,8 @@ X_scale=scaler.fit_transform(X) # X is the data matrix
 
 Reference and usefull links:
 
-sklearn guide: [Here](http://scikit-learn.org/stable/modules/manifold.html#t-sne)
-How to Use t-SNE Effectively: [Here](https://distill.pub/2016/misread-tsne/)
+1. sklearn guide: [Here](http://scikit-learn.org/stable/modules/manifold.html#t-sne)
+2. How to Use t-SNE Effectively: [Here](https://distill.pub/2016/misread-tsne/)
 
 Example Code:
 ```python
