@@ -19,3 +19,13 @@ warning massages**
 import warnings
 warnings.filterwarnings('ignore')
 ```
+
+**import utility code that saved in your drive**
+
+```python
+import sys 
+sys.path.append('/home/ralfahad/MyMac/UtilityCodes')
+# Example
+from LDAAnalysis import LDA
+LDA(X,y,50)
+```
