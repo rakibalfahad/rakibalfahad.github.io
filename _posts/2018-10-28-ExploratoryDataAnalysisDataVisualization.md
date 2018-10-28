@@ -15,7 +15,7 @@ Reference:
 <br> Speaker: Jake VanderPlas
 <br> [YouTube Link](https://www.youtube.com/watch?v=FytuB8nFHPQ)
 Slides: [Slides]("/images/ExploratoryDataAnalysis/PythonVisLandscape.pdf")
-![alt]({{ site.url }}{{ site.baseurl }}/images/ExploratoryDataAnalysis/PythonVisLandscape.pdf)
+[alt]({{ site.url }}{{ site.baseurl }}/images/ExploratoryDataAnalysis/PythonVisLandscape.pdf)
 
 This post was used to demo some plotting libraries at BioInfoSummer 2017 and in my PyConAU 2017 talk.
 
