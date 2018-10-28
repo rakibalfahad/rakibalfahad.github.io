@@ -7,15 +7,14 @@ header:
 excerpt: "Exploratory DataAnalysis, Data Visualization, Python"
 mathjax: "true"
 ---
-# Description
+
 If you want to visualize some data in Python: which library do you choose? From Matplotlib to Seaborn to Bokeh to Plotly, Python has a range of mature tools to create beautiful visualizations, each with their own strengths and weaknesses. In this post I’ll give an overview of the landscape of data visualization tools in Python, as well as some deeper dives into a few, so that you can intelligently choose which library to turn to for any given visualization task.
 
 Reference:
-PyCon 2017
-Published on May 20, 2017
-Speaker: Jake VanderPlas
-[YouTube Link] (https://www.youtube.com/watch?v=FytuB8nFHPQ)
-Slides: [Slides]("/images/ExploratoryDataAnalysis/Python-Vis-Landscape__2_.pdf")
+<br> PyCon 2017(Published on May 20, 2017)
+<br> Speaker: Jake VanderPlas
+<br> [YouTube Link](https://www.youtube.com/watch?v=FytuB8nFHPQ)
+Slides: [Slides]("/images/ExploratoryDataAnalysis/PythonVisLandscape.pdf")
 
 
 This post was used to demo some plotting libraries at BioInfoSummer 2017 and in my PyConAU 2017 talk.
