@@ -23,9 +23,26 @@ warnings.filterwarnings('ignore')
 **import utility code that saved in your drive**
 
 ```python
-import sys 
+import sys
 sys.path.append('/home/ralfahad/MyMac/UtilityCodes')
 # Example
 from LDAAnalysis import LDA
 LDA(X,y,50)
+```
+
+**Save model and data in desk with pickle formate**
+
+```python
+import pickle
+DM1={'DataMatDiagonal':DataMatDiagonal
+      } # make dictionary of the datasets
+f = open('DataMatDiagonal.pckl', 'wb')
+pickle.dump(DM1, f)
+f.close()
+# Load the data/model
+f = open('DataMatDiagonal.pckl', 'rb')
+DM1 = pickle.load(f)
+f.close()
+DataMatDiagonal=DM1['DataMatDiagonal']
+
 ```
