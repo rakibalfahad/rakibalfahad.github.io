@@ -1,5 +1,5 @@
 ---
-title: "GitHub Tips"
+title: "GitHub tips"
 date: 2018-10-28
 tags: [GitHub]
 header:
