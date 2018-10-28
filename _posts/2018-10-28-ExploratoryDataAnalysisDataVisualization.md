@@ -26,4 +26,4 @@ Reference:
 This talk was given at PyCon Australia 2017 which was held from 3-8 August, 2017 in Melbourne, Victoria.
 PyCon Australia is the national conference for users of the Python Programming Language.
 
-<br> [YouTube Link] (https://www.youtube.com/watch?v=6d3Yk7a2qYI)
+<br> [YouTube Link](https://www.youtube.com/watch?v=6d3Yk7a2qYI)
