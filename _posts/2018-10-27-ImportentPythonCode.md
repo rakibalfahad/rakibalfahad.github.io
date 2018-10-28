@@ -44,5 +44,13 @@ f = open('DataMatDiagonal.pckl', 'rb')
 DM1 = pickle.load(f)
 f.close()
 DataMatDiagonal=DM1['DataMatDiagonal']
-
+```
+**Remove a module form running jupyter notebook**
+For example you change your utility code in local drive. If you don't restart the
+kernel, you would not be able to access the changed function unless you delete the
+module. To delete the module use the code example
+    
+```python
+import sys
+del sys.modules["PlotPCAVarienceExplanied"] # Module name PlotPCAVarienceExplanied
 ```
