@@ -21,6 +21,11 @@ I started working at [CVPIA](http://cvpia.memphis.edu/) lab from Fall 2013. I am
 
 Currently, I am working on the following projects:
 
+### Project:Neural dynamics underlying the emergence of auditory categorization and learning: PI: Gavin M. Bidelman, Co-I: M. Yeasin, UofM ECE)- NIH-NIDCD R01 - $1,879,543 - 5/18-4/23:
+This project will support our work to better understand not only the neurobiology of normal
+perception of speech, music and auditory learning, but also inform potential interventions for
+certain communication problems that impair the fundamental process of categorizing sounds.
+
 ### Project: Modeling of Cognitive Performance
 
 Early Imaging-Based Predictive Modeling of Cognitive Performance Following Therapy for Childhood ALL": a collaboration project with St. Jude Children's Research Hospital, Memphis, TN led by Dr. Mohammed Yeasin and Dr. Wilburn Reddick.
