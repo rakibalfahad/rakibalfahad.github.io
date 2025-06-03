@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rakib Al-Fahad"
+title                    : "Rakib Al Fahad"
 title_separator          : "-"
-name                     : "Rakib Al-Fahad"
+name                     : "Rakib Al Fahad"
 description              : "Data Science Portfolio"
 url                      : "https://rakibalfahad.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -84,11 +84,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rakib Al-Fahad"
+  name             : "Rakib Al Fahad"
   avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist and Machine Learning Engineer"
-  location         : "Memphis, Tennessee"
-  email            : "ralfahad@memphis.edu"
+  location         : "Hillsboro, Oregon"
+  email            : "rakibalfahad@gmail.com"
   uri              : "http://cvpia.memphis.edu/lab-members/rakib-al-fahad/"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
