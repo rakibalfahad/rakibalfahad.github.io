@@ -15,7 +15,7 @@ name                     : "Rakib Al Fahad"
 description              : "Data Science Portfolio"
 url                      : "https://rakibalfahad.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "rakibalfahad/rakibalfahad.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -86,10 +86,10 @@ analytics:
 author:
   name             : "Rakib Al Fahad"
   avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist and Machine Learning Engineer"
+  bio              : "Data Scientist and Machine Learning Expert"
   location         : "Hillsboro, Oregon"
   email            : "rakibalfahad@gmail.com"
-  uri              : "http://cvpia.memphis.edu/lab-members/rakib-al-fahad/"
+  uri              : "https://rakibalfahad.github.io"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         : #"https://www.facebook.com/rakib.alfahad"
   foursquare       :
-  github           : "https://github.com/rakibalfahad"
+  github           : "rakibalfahad"
   gitlab           :
   google_plus      :
   keybase          :
@@ -261,3 +261,66 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# Collections
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+  code:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Collections settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _code
+  - scope:
+      path: ""
+      type: code
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

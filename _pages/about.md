@@ -3,58 +3,68 @@ title: "About"
 permalink: /about/
 header:
   image: "/images/zakim.jpg"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-I started working at [CVPIA](http://cvpia.memphis.edu/) lab from Fall 2013. I am pursuing my Ph.D. in Computer Engineering at the Department of Electrical and Computer Engineering at The University of Memphis. My research interest includes the following areas with the focus on cognitive neuroscience:
+# About Me
 
+I'm Rakib Al Fahad, a data scientist and machine learning expert with a passion for solving complex problems using cutting-edge techniques. I completed my Ph.D. in Computer Engineering at the University of Memphis, where I conducted research at the [CVPIA](http://cvpia.memphis.edu/) lab.
 
-- Exploratory data analysis, visualization and pattern analysis.
-- Feature selection in higher dimensional data with a limited sample size.
-- Classical machine learning, clustering, and regression analysis.
-- Connectivity analysis, visualization and graph mining.
-- Bayesian nonparametric methods for clustering and time series analysis.
-- Recurrent neural network analysis for time series prediction, classification, and forecasting.
-- Convolutional neural network, transfer learning, and generative adversarial networks.
-- Representations and visualization of visual concepts learned by convnets.
-- Big data analysis in a distributed computing system using Scala and Apache Spark.
+## Expertise
 
+My expertise spans across multiple disciplines within data science and machine learning:
 
-Currently, I am working on the following projects:
+- **Data Analysis and Visualization**: Proficient in exploratory data analysis, data visualization, and pattern analysis.
+- **Machine Learning**: Experienced in classical machine learning algorithms, clustering, and regression analysis.
+- **Deep Learning**: Skilled in neural networks, including CNNs, RNNs, and advanced architectures.
+- **Time Series Analysis**: Specialized in time series prediction, classification, and forecasting using recurrent neural networks.
+- **Big Data Analytics**: Experienced in distributed computing systems using Scala and Apache Spark.
 
-### Project:Neural dynamics underlying the emergence of auditory categorization and learning
-This project will support our work to better understand not only the neurobiology of normal
-perception of speech, music and auditory learning, but also inform potential interventions for
-certain communication problems that impair the fundamental process of categorizing sounds. PI: Gavin M. Bidelman, Co-I: M. Yeasin, UofM ECE)- NIH-NIDCD R01 - $1,879,543 - 5/18-4/23:
+## Research Interests
 
-### Project: Modeling of Cognitive Performance
+My research interests include:
 
-Early Imaging-Based Predictive Modeling of Cognitive Performance Following Therapy for Childhood ALL": a collaboration project with St. Jude Children's Research Hospital, Memphis, TN led by Dr. Mohammed Yeasin and Dr. Wilburn Reddick.
+- Feature selection in higher dimensional data with limited sample size
+- Connectivity analysis, visualization, and graph mining
+- Bayesian nonparametric methods for clustering and time series analysis
+- Representations and visualization of visual concepts learned by convnets
+- Transfer learning and generative adversarial networks
 
-### Project: Human Connectome Project
+## Technical Skills
 
-Find out individual difference form human brain connectivity using deep learning and graph mining approach led by Dr. Mohammed Yeasin and Dr. Abbas Babajani-Feremi.
+- **Programming Languages**: Python, R, Scala, JavaScript
+- **Libraries & Frameworks**: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, D3.js
+- **Big Data Tools**: Apache Spark, Hadoop
+- **Database Systems**: SQL, MongoDB, Neo4j
+- **Cloud Platforms**: AWS, Google Cloud Platform, Azure
 
-### Project: Epistemic state of mind and color of emotion
+## Notable Projects
 
-Modeling epistemic state of mind and color of emotion from the electroencephalogram (EEG) physiological data. This research is an integral part of the ongoing blind ambition project led by Dr. Mohammed Yeasin.
+### Neural Dynamics Underlying Auditory Categorization
+This project focused on understanding the neurobiology of normal perception of speech, music and auditory learning, with implications for interventions for communication problems that impair sound categorization. (Collaboration with PI: Gavin M. Bidelman, Co-I: M. Yeasin, UofM ECE - NIH-NIDCD R01)
+
+### Predictive Modeling of Cognitive Performance
+Early Imaging-Based Predictive Modeling of Cognitive Performance Following Therapy for Childhood ALL: a collaboration project with St. Jude Children's Research Hospital, Memphis, TN led by Dr. Mohammed Yeasin and Dr. Wilburn Reddick.
+
+### Human Connectome Project
+Research on individual differences in human brain connectivity using deep learning and graph mining approaches, led by Dr. Mohammed Yeasin and Dr. Abbas Babajani-Feremi.
+
+### Epistemic State of Mind and Color of Emotion
+Modeling epistemic state of mind and color of emotion from electroencephalogram (EEG) physiological data, as part of the blind ambition project led by Dr. Mohammed Yeasin.
 
 ## Publications
 
 1. Al-Fahad, R., Yeasin, M., Anam, A.I. and Elahian, B., 2017, May. Selection of stable features for modeling 4-D affective space from EEG recording. In Neural Networks (IJCNN), 2017 International Joint Conference on (pp. 1202-1209). IEEE.
 2. Al-Fahad, R. and Yeasin, M., 2016, December. Robust modeling of continuous 4-d affective space from EEG recording. In Machine Learning and Applications (ICMLA), 2016 15th IEEE International Conference on (pp. 1040-1045). IEEE.
-3. Ahmed, F., Mahmud, M. S., Al-Fahad, R., Alam, S., and Yeasin, M. 2018, April. Image Captioning for Ambient Awareness on a Sidewalk. In Data Intelligence and Security (ICDIS), 2018 1st International Conference on (pp. 85-91). IEEE.
+3. Ahmed, F., Mahmud, M. S., Al-Fahad, R., Alam, S., and Yeasin, M. 2018, April. Image Captioning for Ambient Awareness on a Sidewalk. In Data Intelligence and Security (ICDIS), 2018 1st International Conference on (pp. 85-91). IEEE.
 
-## Presentation
+## Contact Me
 
-1. Rakib Al-Fahad, M.Y, J Glass, H. Conklin, L. Jacola, W. Reddick, 2017. Early Imaging-Based Predictive Modeling of Cognitive Performance Following Therapy for Childhood ALL. In OHBM 2017, Poster Number: 3910
-2. Rakib Al-Fahad, M.Y., 2016. What does Band Frequency Activities Tell us about the 4-D Affective Space? In OHBM 2016, Poster Number: 3395
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/rakibalfahad/) or [GitHub](https://github.com/rakibalfahad). I'm always open to interesting projects, collaborations, or discussions about data science and machine learning.
 
+## Recent Work
 
+Check out my [blog](/blog/), [tutorials](/tutorials/), and [projects](/projects/) to see my recent work and publications.
 
-<br> Rakib Al-Fahad
-<br> Ph.D. Candidate
-<br> Electrical and Computer Engineering
-<br> The University of Memphis
-<br> ralfahad@memphis.edu
-
-My resume is here [resume]({{ site.url }}/images/CV/CV-Rakib.pdf).
+My resume is available here: [resume]({{ site.url }}/images/CV/CV-Rakib.pdf).
