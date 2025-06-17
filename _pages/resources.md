@@ -8,7 +8,6 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 header:
   image: "/images/Gemini_Generated_Image_4dfzcb4dfzcb4dfz.png"
-  caption: "Image generated with Google Gemini"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 

@@ -3,7 +3,6 @@ title: "About"
 permalink: /about/
 header:
   image: "/images/Gemini_Generated_Image_kblg8tkblg8tkblg.png"
-  caption: "Image generated with Google Gemini"
 ---
 
 # About Me

@@ -6,3 +6,30 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom CSS for smaller banner images
+.page__hero {
+  max-height: 200px;
+  overflow: hidden;
+  
+  img.page__hero-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.page__hero--overlay {
+  height: 200px;
+  min-height: 200px !important;
+  max-height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+// Adjust masthead size for better proportions with smaller banner
+.masthead {
+  position: relative;
+  z-index: 10;
+}

@@ -8,7 +8,6 @@ classes: wide
 author_profile: true
 header:
   image: "/images/Gemini_Generated_Image_kblg8ukblg8ukblg.png"
-  caption: "Image generated with Google Gemini"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 

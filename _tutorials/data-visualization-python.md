@@ -11,7 +11,6 @@ tags:
   - tutorial
 header:
   image: "/images/Gemini_Generated_Image_xbkzc0xbkzc0xbkz.png"
-  caption: "Image generated with Google Gemini"
   teaser: "/images/DataVisualization/data-viz-teaser.jpg"
 excerpt: "A comprehensive tutorial on creating effective data visualizations using Python's Matplotlib and Seaborn libraries."
 ---
