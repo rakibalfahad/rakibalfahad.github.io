@@ -1,16 +1,12 @@
 # main links
 main:
-  - title: "About Me"
-    url: /about/
+  - title: "Home"
+    url: /
   - title: "Blog"
     url: /blog/
-  - title: "Tutorials"
-    url: /tutorials/
-  - title: "Code Sharing"
-    url: /code-sharing/
-  - title: "Machine Learning"
-    url: /machine-learning/
   - title: "Projects"
     url: /projects/
   - title: "Resources"
     url: /resources/
+  - title: "About Me"
+    url: /about/
