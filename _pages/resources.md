@@ -8,7 +8,6 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 header:
   image: "/images/Gemini_Generated_Image_4dfzcb4dfzcb4dfz.png"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 Welcome to my resources page! Here, I've compiled a curated list of valuable resources that I've found helpful in my journey. These include books, online courses, websites, tools, and more.
