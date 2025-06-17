@@ -1,104 +1,125 @@
 ---
-title: "Resources & Learning"
+title: "Resources"
 layout: single
 permalink: /resources/
-author_profile: true
-classes: wide
+author_profile: false
 header:
   image: "/images/Gemini_Generated_Image_4dfzcb4dfzcb4dfz.png"
 ---
 
-# Resources & Learning Materials
-
-Welcome to my resources page! Here you'll find learning materials, code samples, and helpful resources for data science and machine learning.
-
-## Learning Resources
-
-### Tutorials
-{% if site.tutorials.size > 0 %}
-<ul>
-  {% for tutorial in site.tutorials %}
-    <li><a href="{{ tutorial.url }}">{{ tutorial.title }}</a> - {{ tutorial.excerpt | strip_html | truncate: 100 }}</li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>Coming soon! Check back for tutorials on data science, machine learning, and programming.</p>
-{% endif %}
-
-### Code Snippets
-{% if site.code.size > 0 %}
-<ul>
-  {% for code in site.code %}
-    <li><a href="{{ code.url }}">{{ code.title }}</a> - {{ code.excerpt | strip_html | truncate: 100 }}</li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>Coming soon! Check back for useful code snippets and examples.</p>
-{% endif %}
-
-## Books I Recommend
-
-<div class="resource-section">
-  <ul>
-    <li><a href="https://web.stanford.edu/~hastie/ElemStatLearn/">The Elements of Statistical Learning</a> by Hastie, Tibshirani, and Friedman</li>
-    <li><a href="https://www.deeplearningbook.org/">Deep Learning</a> by Goodfellow, Bengio, and Courville</li>
-    <li><a href="https://wesmckinney.com/book/">Python for Data Analysis</a> by Wes McKinney</li>
-    <li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</a> by Aurélien Géron</li>
-    <li><a href="https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/">Pattern Recognition and Machine Learning</a> by Christopher M. Bishop</li>
-  </ul>
-</div>
-
-## Online Courses
-
-<div class="resource-section">
-  <ul>
-    <li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a> by Andrew Ng on Coursera</li>
-    <li><a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> by Andrew Ng on Coursera</li>
-    <li><a href="https://course.fast.ai/">Fast.ai Practical Deep Learning for Coders</a></li>
-    <li><a href="http://cs231n.stanford.edu/">CS231n: Convolutional Neural Networks for Visual Recognition</a> from Stanford</li>
-  </ul>
-</div>
-
-## Helpful Websites
-
-<div class="resource-section">
-  <ul>
-    <li><a href="https://towardsdatascience.com/">Towards Data Science</a> - Articles on data science, machine learning, and AI</li>
-    <li><a href="https://paperswithcode.com/">Papers With Code</a> - Latest research papers with code implementations</li>
-    <li><a href="https://distill.pub/">Distill.pub</a> - Clear explanations of machine learning concepts</li>
-    <li><a href="https://www.kdnuggets.com/">KDnuggets</a> - News, tutorials, and opinions on data science</li>
-  </ul>
-</div>
-
-## Essential Tools & Libraries
-
-<div class="resource-section">
-  <div class="tools-row">
-    <div class="tools-column">
-      <h4>Machine Learning & Deep Learning</h4>
-      <ul>
-        <li><a href="https://www.tensorflow.org/">TensorFlow</a></li>
-        <li><a href="https://pytorch.org/">PyTorch</a></li>
-        <li><a href="https://scikit-learn.org/">scikit-learn</a></li>
-      </ul>
-    </div>
+<div class="page__content-wrapper">
+  <div class="page__content">
+    <h1>Resources & Learning Materials</h1>
     
-    <div class="tools-column">
-      <h4>Data Processing</h4>
-      <ul>
-        <li><a href="https://pandas.pydata.org/">Pandas</a></li>
-        <li><a href="https://numpy.org/">NumPy</a></li>
-        <li><a href="https://dask.org/">Dask</a></li>
-      </ul>
-    </div>
+    <p>Welcome to my curated collection of resources for data science, machine learning, and programming.</p>
     
-    <div class="tools-column">
-      <h4>Visualization</h4>
-      <ul>
-        <li><a href="https://matplotlib.org/">Matplotlib</a></li>
-        <li><a href="https://seaborn.pydata.org/">Seaborn</a></li>
-        <li><a href="https://plotly.com/">Plotly</a></li>
-      </ul>
-    </div>
+    <section class="resource-block">
+      <h2>Learning Materials</h2>
+      
+      <div class="resource-section">
+        <h3>Tutorials</h3>
+        {% if site.tutorials.size > 0 %}
+        <ul class="resource-list">
+          {% for tutorial in site.tutorials %}
+            <li><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>Coming soon! Check back for tutorials on data science and machine learning.</p>
+        {% endif %}
+      </div>
+      
+      <div class="resource-section">
+        <h3>Code Examples</h3>
+        {% if site.code.size > 0 %}
+        <ul class="resource-list">
+          {% for code in site.code %}
+            <li><a href="{{ code.url }}">{{ code.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>Coming soon! Check back for code snippets and examples.</p>
+        {% endif %}
+      </div>
+    </section>
+    
+    <section class="resource-block">
+      <h2>Books & Courses</h2>
+      
+      <div class="resource-section">
+        <h3>Recommended Books</h3>
+        <ul class="resource-list">
+          <li><a href="https://web.stanford.edu/~hastie/ElemStatLearn/">The Elements of Statistical Learning</a></li>
+          <li><a href="https://www.deeplearningbook.org/">Deep Learning</a> by Goodfellow, Bengio, and Courville</li>
+          <li><a href="https://wesmckinney.com/book/">Python for Data Analysis</a> by Wes McKinney</li>
+          <li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-On Machine Learning</a></li>
+        </ul>
+      </div>
+      
+      <div class="resource-section">
+        <h3>Online Courses</h3>
+        <ul class="resource-list">
+          <li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a> (Coursera)</li>
+          <li><a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> by Andrew Ng</li>
+          <li><a href="https://course.fast.ai/">Fast.ai Practical Deep Learning</a></li>
+          <li><a href="http://cs231n.stanford.edu/">CS231n: CNN for Visual Recognition</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="resource-block">
+      <h2>Tools & References</h2>
+      
+      <div class="resource-section">
+        <h3>Key Libraries</h3>
+        <div class="tools-grid">
+          <div class="tools-card">
+            <h4>TensorFlow</h4>
+            <p>Deep learning framework</p>
+            <a href="https://www.tensorflow.org/" class="tools-link">Visit →</a>
+          </div>
+          
+          <div class="tools-card">
+            <h4>PyTorch</h4>
+            <p>Deep learning library</p>
+            <a href="https://pytorch.org/" class="tools-link">Visit →</a>
+          </div>
+          
+          <div class="tools-card">
+            <h4>scikit-learn</h4>
+            <p>Machine learning toolkit</p>
+            <a href="https://scikit-learn.org/" class="tools-link">Visit →</a>
+          </div>
+          
+          <div class="tools-card">
+            <h4>Pandas</h4>
+            <p>Data manipulation</p>
+            <a href="https://pandas.pydata.org/" class="tools-link">Visit →</a>
+          </div>
+          
+          <div class="tools-card">
+            <h4>NumPy</h4>
+            <p>Numerical computing</p>
+            <a href="https://numpy.org/" class="tools-link">Visit →</a>
+          </div>
+          
+          <div class="tools-card">
+            <h4>Matplotlib</h4>
+            <p>Data visualization</p>
+            <a href="https://matplotlib.org/" class="tools-link">Visit →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="resource-section">
+        <h3>Useful Websites</h3>
+        <ul class="resource-list">
+          <li><a href="https://towardsdatascience.com/">Towards Data Science</a></li>
+          <li><a href="https://paperswithcode.com/">Papers With Code</a></li>
+          <li><a href="https://distill.pub/">Distill.pub</a></li>
+          <li><a href="https://www.kdnuggets.com/">KDnuggets</a></li>
+        </ul>
+      </div>
+    </section>
   </div>
 </div>
