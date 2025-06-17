@@ -3,7 +3,8 @@ title: "Importent Keras Link"
 date: 2018-01-28
 tags: [Deep Learning, Tensorflow, Keras]
 header:
-  image: "/images/KerasTensorflow.jpg"
+  image: "/images/Gemini_Generated_Image_kblg8tkblg8tkblg.png"
+  caption: "Image generated with Google Gemini"
 excerpt: "Deep Learning, Tensorflow, Keras"
 mathjax: "true"
 ---

@@ -3,7 +3,8 @@ title: "Machine Learning Project: Perceptron"
 date: 2018-01-28
 tags: [machine learning, data science, neural network]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/Gemini_Generated_Image_4dfzcb4dfzcb4dfz.png"
+  caption: "Image generated with Google Gemini"
 excerpt: "Machine Learning, Perceptron, Data Science"
 mathjax: "true"
 ---

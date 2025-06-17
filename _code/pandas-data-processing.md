@@ -9,7 +9,8 @@ tags:
   - data-analysis
   - code-snippet
 header:
-  image: "/images/fort point1.png"
+  image: "/images/Gemini_Generated_Image_xbkzc1xbkzc1xbkz.png"
+  caption: "Image generated with Google Gemini"
   teaser: "/images/fort point1.png"
 excerpt: "A collection of useful Pandas code snippets for efficient data processing and analysis."
 ---

@@ -11,7 +11,8 @@ tags:
   - tensorflow
   - keras
 header:
-  image: "/images/KerasTensorflow.jpg"
+  image: "/images/Gemini_Generated_Image_kblg8ukblg8ukblg.png"
+  caption: "Image generated with Google Gemini"
   teaser: "/images/KerasTensorflow.jpg"
 excerpt: "A project demonstrating how to build and train a neural network model for time series prediction using TensorFlow and Keras."
 ---

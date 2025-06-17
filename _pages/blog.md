@@ -4,7 +4,8 @@ layout: posts
 permalink: /blog/
 author_profile: true
 header:
-  image: "/images/waterfront.jpg"
+  image: "/images/Gemini_Generated_Image_xbkzc1xbkzc1xbkz.png"
+  caption: "Image generated with Google Gemini"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 

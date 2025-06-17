@@ -7,7 +7,8 @@ entries_layout: grid
 classes: wide
 author_profile: true
 header:
-  image: "/images/university-of-memphis.jpg"
+  image: "/images/Gemini_Generated_Image_xbkzc0xbkzc0xbkz.png"
+  caption: "Image generated with Google Gemini"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
