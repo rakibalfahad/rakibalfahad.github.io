@@ -7,23 +7,23 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Custom CSS for smaller banner images
+// Custom CSS for banner images
 .page__hero {
-  max-height: 120px;
+  max-height: 180px;
   overflow: hidden;
   
   img.page__hero-image {
     width: 100%;
-    height: 120px;
+    height: 180px;
     object-fit: cover;
     object-position: center;
   }
 }
 
 .page__hero--overlay {
-  height: 120px;
-  min-height: 120px !important;
-  max-height: 120px;
+  height: 180px;
+  min-height: 180px !important;
+  max-height: 180px;
   background-position: center;
   background-size: cover;
 }

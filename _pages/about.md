@@ -1,13 +1,11 @@
 ---
-title: "About"
+title: "About Me"
 layout: single
 permalink: /about/
 author_profile: true
 header:
   image: "/images/Gemini_Generated_Image_kblg8tkblg8tkblg.png"
 ---
-
-# About
 
 I'm Rakib Al-Fahad, a Cloud Software Development Engineer at Intel Corporation, with a Ph.D. in Electrical and Computer Engineering from the University of Memphis. I am a multi-disciplinary researcher in the field of machine learning, exploratory data analysis, computer vision, cognitive science, and human-computer interaction. I specialize in providing research and analysis to support operations initiatives and strategic programs through descriptive, predictive, and prescriptive modeling, advanced statistical and complex mathematical techniques. I enjoy asking relevant research questions, connecting ideas, and am a lifelong learner.
 

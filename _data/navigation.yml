@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Blog"
     url: /blog/
   - title: "Tutorials"
@@ -14,3 +12,5 @@ main:
     url: /projects/
   - title: "Resources"
     url: /resources/
+  - title: "About Me"
+    url: /about/
