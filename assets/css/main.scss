@@ -71,6 +71,53 @@
   }
 }
 
+// Custom styles for resources page
+.resource-section {
+  margin-bottom: 2em;
+  
+  ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+  }
+}
+
+.tools-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.tools-column {
+  flex: 1;
+  padding: 0 15px;
+  min-width: 200px;
+  margin-bottom: 1em;
+  
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+  }
+  
+  ul {
+    padding-left: 1.2em;
+    margin-top: 0.3em;
+  }
+  
+  li {
+    margin-bottom: 0.3em;
+  }
+}
+
 // Fix table of contents
 .toc {
   font-family: $sans-serif;
@@ -116,5 +163,25 @@
   
   .archive__item-excerpt {
     margin-top: 0.5em;
+  }
+}
+
+// Single layout improvements
+.layout--single {
+  .page__content {
+    h1, h2, h3, h4 {
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+    }
+    
+    p + h2, 
+    p + h3 {
+      margin-top: 1.5em;
+    }
+    
+    ul li,
+    ol li {
+      margin-bottom: 0.5em;
+    }
   }
 }
