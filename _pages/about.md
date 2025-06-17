@@ -1,6 +1,8 @@
 ---
 title: "About"
+layout: single
 permalink: /about/
+author_profile: true
 header:
   image: "/images/Gemini_Generated_Image_kblg8tkblg8tkblg.png"
 ---
