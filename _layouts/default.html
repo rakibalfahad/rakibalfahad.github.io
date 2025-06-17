@@ -14,7 +14,7 @@
     {% include head/custom.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}{% if page.url == '/' %} home-page{% endif %}{% if page.url == '/about/' %} about-page{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

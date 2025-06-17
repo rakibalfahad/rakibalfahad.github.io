@@ -1,0 +1,57 @@
+/* 
+ * Specific CSS for the About Me page 
+ */
+
+.about-page .author__avatar img {
+  max-width: 110px;
+  border-radius: 50%;
+}
+
+.about-page .author__content {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.about-page .sidebar {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  width: 100% !important;
+  clear: both !important;
+}
+
+.home-page .sidebar {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Hide author profile on other pages */
+.sidebar .author__avatar,
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+/* Show on home page */
+.home-page .sidebar .author__avatar,
+.home-page .sidebar .author__content,
+.home-page .sidebar .author__urls-wrapper,
+.about-page .sidebar .author__avatar,
+.about-page .sidebar .author__content,
+.about-page .sidebar .author__urls-wrapper {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+
+/* Add spacing between sidebar and content */
+.page {
+  width: 100% !important;
+  float: none !important;
+  clear: both !important;
+}
