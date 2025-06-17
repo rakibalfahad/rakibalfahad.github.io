@@ -4,8 +4,10 @@ layout: single
 permalink: /resources/
 author_profile: true
 toc: true
+toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+classes: wide
 header:
   image: "/images/Gemini_Generated_Image_4dfzcb4dfzcb4dfz.png"
 ---
@@ -16,21 +18,31 @@ Welcome to my comprehensive resources page! Here you'll find tutorials, code sni
 
 Check out my step-by-step tutorials on various topics:
 
+{% assign tutorials = site.tutorials %}
+{% if tutorials.size > 0 %}
 <div class="grid__wrapper">
   {% for post in site.tutorials %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+{% else %}
+<p>Stay tuned for upcoming tutorials!</p>
+{% endif %}
 
 ## Code Snippets & Tools
 
 Useful code snippets and tools for your projects:
 
+{% assign code_posts = site.code %}
+{% if code_posts.size > 0 %}
 <div class="grid__wrapper">
   {% for post in site.code %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+{% else %}
+<p>Check back soon for useful code snippets and tools!</p>
+{% endif %}
 
 ## Recommended Books
 
@@ -46,6 +58,8 @@ Useful code snippets and tools for your projects:
 * [Machine Learning](https://www.coursera.org/learn/machine-learning) by Andrew Ng on Coursera
 * [Fast.ai Practical Deep Learning for Coders](https://course.fast.ai/)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) from Stanford
+* [DataCamp Courses](https://www.datacamp.com/)
+* [edX Data Science & AI Programs](https://www.edx.org/)
 
 ## Useful Websites & Blogs
 
@@ -54,33 +68,19 @@ Useful code snippets and tools for your projects:
 * [Distill.pub](https://distill.pub/)
 * [PyImageSearch](https://pyimagesearch.com/)
 * [Machine Learning Mastery](https://machinelearningmastery.com/)
+* [KDnuggets](https://www.kdnuggets.com/)
+* [Analytics Vidhya](https://www.analyticsvidhya.com/)
+* [AI Summer](https://theaisummer.com/)
 
 ## Tools & Libraries
 
-* [TensorFlow](https://www.tensorflow.org/)
-* [PyTorch](https://pytorch.org/)
-* [scikit-learn](https://scikit-learn.org/)
-* [Pandas](https://pandas.pydata.org/)
-* [NumPy](https://numpy.org/)
-* [Matplotlib](https://matplotlib.org/)
-* [Seaborn](https://seaborn.pydata.org/)
-
-## Online Courses
-
-* [Machine Learning by Andrew Ng (Coursera)](https://www.coursera.org/learn/machine-learning)
-* [Deep Learning Specialization (Coursera)](https://www.coursera.org/specializations/deep-learning)
-* [Fast.ai](https://www.fast.ai/)
-
-## Websites and Blogs
-
-* [Towards Data Science](https://towardsdatascience.com/)
-* [KDnuggets](https://www.kdnuggets.com/)
-* [Analytics Vidhya](https://www.analyticsvidhya.com/)
-
-## Tools and Libraries
-
-* [Scikit-learn](https://scikit-learn.org/)
-* [TensorFlow](https://www.tensorflow.org/)
-* [PyTorch](https://pytorch.org/)
-* [Pandas](https://pandas.pydata.org/)
-* [NumPy](https://numpy.org/)
+* [TensorFlow](https://www.tensorflow.org/) - Deep learning framework
+* [PyTorch](https://pytorch.org/) - Deep learning framework
+* [scikit-learn](https://scikit-learn.org/) - Machine learning library
+* [Pandas](https://pandas.pydata.org/) - Data manipulation and analysis
+* [NumPy](https://numpy.org/) - Numerical computing
+* [Matplotlib](https://matplotlib.org/) - Data visualization
+* [Seaborn](https://seaborn.pydata.org/) - Statistical data visualization
+* [Hugging Face](https://huggingface.co/) - NLP and transformer models
+* [NLTK](https://www.nltk.org/) - Natural language processing
+* [spaCy](https://spacy.io/) - Industrial-strength NLP
