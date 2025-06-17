@@ -1,6 +1,6 @@
 ---
 title: "Blog & Articles"
-layout: posts
+layout: fixed-posts
 permalink: /blog/
 author_profile: true
 header:

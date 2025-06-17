@@ -1,6 +1,6 @@
 ---
 title: "Tutorials Moved"
-layout: single
+layout: fixed-single
 permalink: /tutorials/
 author_profile: true
 header:

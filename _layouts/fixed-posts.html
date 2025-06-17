@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="page-content-wrapper">
+    {% if page.author_profile %}
+      <div class="author-sidebar">
+        {% include sidebar.html %}
+      </div>
+    {% endif %}
+
+    <div class="page-content">
+      <div class="archive">
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+        {% endunless %}
+        
+        {{ content }}
+        
+        {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+        {% for year in postsByYear %}
+          <section id="{{ year.name }}" class="taxonomy__section">
+            <h2 class="archive__subtitle">{{ year.name }}</h2>
+            <div class="entries-{{ page.entries_layout | default: 'list' }}">
+              {% for post in year.items %}
+                {% include archive-single.html type=page.entries_layout %}
+              {% endfor %}
+            </div>
+            <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+          </section>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

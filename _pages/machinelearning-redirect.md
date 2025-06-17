@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Posts"
-layout: single
+layout: fixed-single
 permalink: /machine-learning/
 author_profile: true
 header:

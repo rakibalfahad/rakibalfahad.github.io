@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="page-content-wrapper">
+    {% if page.author_profile %}
+      <div class="author-sidebar">
+        {% include sidebar.html %}
+      </div>
+    {% endif %}
+
+    <div class="page-content">
+      <div class="archive">
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+        {% endunless %}
+        
+        {{ content }}
+        
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

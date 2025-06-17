@@ -273,3 +273,84 @@
     }
   }
 }
+
+// Fix author content overlap issues globally
+.page {
+  display: block !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+  clear: both !important;
+}
+
+.sidebar {
+  &.sticky {
+    clear: both !important;
+    position: relative !important;
+    top: 2em !important;
+    height: auto !important;
+    
+    @media (min-width: 1024px) {
+      position: sticky !important;
+      float: right !important;
+      width: calc(200px - 1em) !important;
+    }
+  }
+}
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+  
+  img {
+    max-width: 110px;
+    border-radius: 50%;
+  }
+}
+
+.author__content {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+// Make sure layout structure is consistent
+.layout--single {
+  display: block !important;
+  
+  .page {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    clear: both !important;
+  }
+  
+  @media (min-width: 1024px) {
+    .page {
+      width: calc(100% - 200px) !important;
+      float: right !important;
+      margin-right: 200px !important;
+    }
+  }
+}
+
+// Ensure content doesn't get hidden
+.page__content {
+  position: relative;
+  z-index: 10;
+  clear: both;
+  
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    z-index: 20;
+  }
+}

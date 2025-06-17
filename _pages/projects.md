@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: collection
+layout: fixed-collection
 permalink: /projects/
 collection: projects
 entries_layout: grid
