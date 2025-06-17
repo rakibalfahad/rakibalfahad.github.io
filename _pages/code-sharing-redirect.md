@@ -1,6 +1,6 @@
 ---
 title: "Code Sharing Moved"
-layout: fixed-single
+layout: single
 permalink: /code-sharing/
 author_profile: true
 header:

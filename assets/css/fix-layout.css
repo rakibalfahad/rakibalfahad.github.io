@@ -1,0 +1,119 @@
+/* 
+ * Emergency CSS fixes for layout issues
+ * This file contains high-specificity fixes to override problematic styles
+ */
+
+/* Force proper layout structure */
+html body.layout--single .sidebar.sticky,
+html body.layout--archive .sidebar.sticky,
+html body.layout--splash .sidebar.sticky,
+html body.layout--home .sidebar.sticky,
+html body.layout--posts .sidebar.sticky,
+html body.layout--categories .sidebar.sticky,
+html body.layout--tags .sidebar.sticky,
+html body.layout--collection .sidebar.sticky {
+  position: relative !important;
+  top: 0 !important;
+  float: left !important;
+  clear: both !important;
+  width: 100% !important;
+  margin-bottom: 2em !important;
+}
+
+@media (min-width: 64em) {
+  html body.layout--single .sidebar.sticky,
+  html body.layout--archive .sidebar.sticky,
+  html body.layout--splash .sidebar.sticky,
+  html body.layout--home .sidebar.sticky,
+  html body.layout--posts .sidebar.sticky,
+  html body.layout--categories .sidebar.sticky,
+  html body.layout--tags .sidebar.sticky,
+  html body.layout--collection .sidebar.sticky {
+    position: sticky !important;
+    top: 2em !important;
+    float: left !important;
+    width: calc(200px - 1em) !important;
+  }
+
+  html body.layout--single .page,
+  html body.layout--archive .page,
+  html body.layout--splash .page,
+  html body.layout--home .page,
+  html body.layout--posts .page,
+  html body.layout--categories .page,
+  html body.layout--tags .page,
+  html body.layout--collection .page {
+    width: calc(100% - 200px) !important;
+    float: right !important;
+    clear: none !important;
+    padding-left: 2em !important;
+  }
+}
+
+/* Fix author content display */
+.author__avatar {
+  display: block !important;
+  width: 100% !important;
+  max-width: 110px !important;
+  height: auto !important;
+}
+
+.author__content {
+  display: block !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  margin-top: 10px !important;
+}
+
+.author__urls-wrapper {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  margin-top: 15px !important;
+}
+
+/* Additional override for resources page */
+body.layout--single .page__content,
+body.layout--posts .page__content,
+body.layout--collection .page__content {
+  clear: both !important;
+  position: relative !important;
+  z-index: 20 !important; 
+}
+
+/* Ensure headings don't get hidden */
+.page__content h1, 
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.page__content p,
+.page__content li {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Fix for grid layouts */
+.grid__wrapper {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Mobile styling fixes */
+@media (max-width: 63.9em) {
+  .page {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+  }
+  
+  .sidebar.sticky {
+    position: relative !important;
+    top: 0 !important;
+    float: none !important;
+    width: 100% !important;
+    clear: both !important;
+    margin-bottom: 2em !important;
+  }
+}
