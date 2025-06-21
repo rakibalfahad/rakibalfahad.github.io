@@ -3,7 +3,7 @@ title: "Feature Selection Reinvented: How Stability Selection Revolutionizes Mac
 date: 2025-06-20
 tags: [machine learning, feature selection, stability selection, data science, PyTorch, GPU]
 header:
-  image: "/images/Gemini_Generated_Image_xbkzc0xbkz.png"
+  image: "/images/Gemini_Generated_Image_xbkzc0xbkzc0xbkz.png"
 excerpt: "An in-depth exploration of stability selection for robust feature selection in machine learning"
 mathjax: "true"
 ---
@@ -260,11 +260,11 @@ plt.tight_layout()
 plt.savefig('stability_paths.png')
 ```
 
-![Stability Paths](/images/stability_selection/stability_paths_paper_style.png)
+![Stability Paths]({{ site.url }}/images/stability_selection/stability_paths_paper_style.png)
 
 The stability paths visualization shows how each feature's selection probability varies with the regularization parameter. True features (shown in red) have consistently high stability scores across a range of parameter values.
 
-![Stability Paths Comparison](/images/stability_selection/stability_paths_comparison.png)
+![Stability Paths Comparison]({{ site.url }}/images/stability_selection/stability_paths_comparison.png)
 *Comparing stability paths for different feature selection methods. Stability Selection provides more consistent selection across different regularization parameters.*
 
 ### Feature Importance Histogram
@@ -329,7 +329,7 @@ For a complete example including these visualizations, see `examples/synthetic_d
 
 One of the key advantages of our implementation is the comprehensive visualization toolkit that helps interpret the results. Below is an example of our stability selection visualization showing which features are consistently selected across different regularization parameters:
 
-![Stability Selection Visualization](/images/stability_selection/stability_selection_visualization.png)
+![Stability Selection Visualization]({{ site.url }}/images/stability_selection/stability_selection_visualization.png)
 *Visual representation of stability selection results. The heatmap shows stability scores for each feature (rows) across different regularization parameters (columns), with brighter colors indicating higher stability scores.*
 
 This visualization allows researchers and data scientists to:
@@ -338,7 +338,7 @@ This visualization allows researchers and data scientists to:
 3. Determine optimal threshold values for feature selection
 4. Detect groups of features that behave similarly
 
-![Stability Path](/images/stability_selection/stability_path.png)
+![Stability Path]({{ site.url }}/images/stability_selection/stability_path.png)
 *Stability path showing how the selection probability of features changes with the regularization parameter. The most important features maintain high stability scores across a wide range of regularization values.*
 
 ## Real-World Applications
@@ -426,7 +426,7 @@ Whether you're working in bioinformatics, finance, healthcare, or any field with
 
 To demonstrate the benefits of our GPU-accelerated implementation, we conducted benchmarks across various dataset sizes. Here are the results comparing CPU (using all cores) versus GPU execution time:
 
-![GPU Benchmark Results](/images/stability_selection/gpu_benchmark_results.png)
+![GPU Benchmark Results]({{ site.url }}/images/stability_selection/gpu_benchmark_results.png)
 *Benchmark results showing speedup achieved with GPU acceleration for different dataset sizes. The advantage of GPU acceleration becomes more pronounced as the dataset size increases.*
 
 | Dataset Size (samples × features) | CPU Time (seconds) | GPU Time (seconds) | Speedup |
