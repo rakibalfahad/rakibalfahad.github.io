@@ -1,6 +1,12 @@
-# Feature Selection Reinvented: How Stability Selection Revolutionizes Machine Learning
-
-*June 20, 2025*
+---
+title: "Feature Selection Reinvented: How Stability Selection Revolutionizes Machine Learning"
+date: 2025-06-20
+tags: [machine learning, feature selection, stability selection, data science, PyTorch, GPU]
+header:
+  image: "/images/Gemini_Generated_Image_xbkzc0xbkzc0xbkz.png"
+excerpt: "An in-depth exploration of stability selection for robust feature selection in machine learning"
+mathjax: "true"
+---
 
 ## Introduction
 
