@@ -42,37 +42,41 @@ This approach provides remarkable robustness. Features that are truly important 
 
 ### Mathematical Formulation
 
-Let's formalize the idea. Given a dataset $(X, y)$ with $n$ observations and $p$ features:
+Let's formalize the idea. Given a dataset \\((X, y)\\) with \\(n\\) observations and \\(p\\) features:
 
-1. Draw $B$ random subsamples of size $\lfloor n/2 \rfloor$
-2. For each subsample $b$ and regularization parameter $\lambda$ in a grid $\Lambda$, apply a feature selection method (e.g., LASSO) and get a set of selected features $\hat{S}^b_\lambda$
-3. For each feature $k$ and parameter $\lambda$, compute the stability score:
+1. Draw \\(B\\) random subsamples of size \\(\lfloor n/2 \rfloor\\)
+2. For each subsample \\(b\\) and regularization parameter \\(\lambda\\) in a grid \\(\Lambda\\), apply a feature selection method (e.g., LASSO) and get a set of selected features \\(\hat{S}^b_\lambda\\)
+3. For each feature \\(k\\) and parameter \\(\lambda\\), compute the stability score:
+
    $$\Pi_k^\lambda = \frac{1}{B} \sum_{b=1}^B \mathbf{1}\{k \in \hat{S}^b_\lambda\}$$
+
 4. The set of stable features is:
+
    $$\hat{S}^{\text{stable}} = \{k : \max_{\lambda \in \Lambda} \Pi_k^\lambda \geq \pi_{\text{thr}}\}$$
-   where $\pi_{\text{thr}}$ is a threshold (typically 0.6-0.9)
+
+   where \\(\pi_{\text{thr}}\\) is a threshold (typically 0.6-0.9)
 
 For randomized LASSO, the feature selection on each subsample modifies the standard LASSO problem:
 
 $$\hat{\beta} = \arg\min_{\beta} \|y - X\beta\|_2^2 + \lambda \sum_{j=1}^p \frac{|\beta_j|}{W_j}$$
 
-where each $W_j$ is randomly sampled from $[\alpha, 1]$ with $\alpha \in (0,1)$ being the "weakness" parameter. This introduces additional randomization that helps break correlations between features.
+where each \\(W_j\\) is randomly sampled from \\([\alpha, 1]\\) with \\(\alpha \in (0,1)\\) being the "weakness" parameter. This introduces additional randomization that helps break correlations between features.
 
 For classification tasks, randomized logistic regression works similarly, replacing the squared error loss with the logistic loss:
 
 $$\hat{\beta} = \arg\min_{\beta} \sum_{i=1}^n \log(1 + \exp(-y_i X_i^T\beta)) + \lambda \sum_{j=1}^p \frac{|\beta_j|}{W_j}$$
 
-In the complementary pairs variant, we create pairs of complementary subsamples $(A, B)$ such that $A \cup B = \{1, 2, \ldots, n\}$ and $A \cap B = \emptyset$. A feature is considered selected in this iteration only if it's selected in both subsample $A$ and subsample $B$. This more conservative approach further improves the error control properties.
+In the complementary pairs variant, we create pairs of complementary subsamples \\((A, B)\\) such that \\(A \cup B = \{1, 2, \ldots, n\}\\) and \\(A \cap B = \emptyset\\). A feature is considered selected in this iteration only if it's selected in both subsample \\(A\\) and subsample \\(B\\). This more conservative approach further improves the error control properties.
 
 ### Theoretical Guarantees
 
-One of the most attractive properties of Stability Selection is its theoretical guarantees. Meinshausen and Bühlmann proved that, under certain conditions, Stability Selection controls the expected number of falsely selected variables, regardless of the dimensionality $p$, sample size $n$, or the dependencies between variables.
+One of the most attractive properties of Stability Selection is its theoretical guarantees. Meinshausen and Bühlmann proved that, under certain conditions, Stability Selection controls the expected number of falsely selected variables, regardless of the dimensionality \\(p\\), sample size \\(n\\), or the dependencies between variables.
 
-Specifically, if we set the threshold $\pi_{\text{thr}}$ appropriately, the expected number of falsely selected variables is bounded by:
+Specifically, if we set the threshold \\(\pi_{\text{thr}}\\) appropriately, the expected number of falsely selected variables is bounded by:
 
 $$E[V] \leq \frac{1}{2\pi_{\text{thr}} - 1} \cdot \frac{q^2}{p}$$
 
-where $V$ is the number of falsely selected variables, $q$ is the expected number of variables selected by the base method, and $p$ is the total number of variables.
+where \\(V\\) is the number of falsely selected variables, \\(q\\) is the expected number of variables selected by the base method, and \\(p\\) is the total number of variables.
 
 Remarkably, this bound holds without any assumptions on the distribution of the data or the dependencies between variables, making stability selection particularly valuable in real-world applications where such assumptions might be unrealistic.
 
